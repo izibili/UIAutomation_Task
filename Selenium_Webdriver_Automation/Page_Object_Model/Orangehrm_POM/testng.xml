@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/IZIBILI GODWIN/Documents/Prightle/projects/Testify/move/Selenium_Webdriver_Automation/Single_page_approach/Orangehrm_POM">
+        <classes>
+            <class name="testLogin.LoginTests">
+                <methods>
+                    <include name="testALoginPanel"/>
+                    <include name="testAPageTitle"/>
+                    <include name="testACompanyLogo"/>
+                    <include name="testAForgotPassword"/>
+                    <include name="getDashboardPage"/>
+                </methods>
+            </class>
+            <class name="testDashBoard.DashboardTests">
+                <methods>
+                    <include name="testLeaveRequest"/>
+                    <include name="testLogout"/>
+                    <include name="CheckingLogout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
